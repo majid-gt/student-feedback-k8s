@@ -2,6 +2,7 @@ apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
   name: student-feedback-ingress
+  namespace: student-feedback
   annotations:
     cert-manager.io/cluster-issuer: letsencrypt-prod
 spec:
