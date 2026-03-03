@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: backend
-        image: dockermajid/student-feedback-backend:PLACEHOLDER
+        image: dockermajid/student-feedback-backend:b035b8082beb4ce6b220567a0c64ce91e5579351
         imagePullPolicy: Always
         ports:
         - containerPort: 8000
