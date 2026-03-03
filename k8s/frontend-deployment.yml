@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: frontend
-          image: dockermajid/student-feedback-frontend:latest
+          image: dockermajid/student-feedback-frontend:PLACEHOLDER
           imagePullPolicy: Always
           ports:
             - containerPort: 80
